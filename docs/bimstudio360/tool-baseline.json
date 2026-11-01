@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "source": "oakplank/RevitMCP",
+  "source_branch": "main",
+  "total_tools": 49,
+  "categories": {
+    "context_tools": [
+      "get_revit_project_info",
+      "list_family_types",
+      "get_revit_schema_context",
+      "resolve_revit_targets"
+    ],
+    "memory_tools": [
+      "get_revit_memory_context",
+      "save_revit_memory_note"
+    ],
+    "model_tools": [
+      "analyze_model_statistics"
+    ],
+    "view_tools": [
+      "get_active_view_info",
+      "get_active_view_elements",
+      "export_active_view_image",
+      "export_element_snapshot",
+      "isolate_elements_in_view",
+      "clear_temporary_isolate",
+      "place_view_on_sheet",
+      "activate_view",
+      "duplicate_view",
+      "list_views",
+      "analyze_view_naming_patterns",
+      "suggest_view_name_corrections"
+    ],
+    "schedule_tools": [
+      "list_schedules",
+      "get_schedule_info",
+      "list_schedule_available_fields",
+      "get_schedule_rows",
+      "compare_schedules",
+      "duplicate_schedule",
+      "delete_schedule",
+      "create_schedule",
+      "update_schedule",
+      "audit_schedule_capabilities"
+    ],
+    "element_tools": [
+      "get_active_selection",
+      "get_revit_diagnostics",
+      "get_elements_by_category",
+      "select_elements_by_id",
+      "select_stored_elements",
+      "list_stored_elements",
+      "filter_elements",
+      "filter_stored_elements_by_parameter",
+      "get_element_properties",
+      "get_element_relationships",
+      "get_element_locations",
+      "get_related_element_properties",
+      "update_element_parameters",
+      "sync_element_parameter_values"
+    ],
+    "element_operation_tools": [
+      "override_element_graphics",
+      "delete_elements"
+    ],
+    "planning_tools": [
+      "plan_and_execute_workflow"
+    ],
+    "tag_tools": [
+      "tag_elements_by_id",
+      "tag_all_in_view",
+      "tag_rooms"
+    ]
+  }
+}
